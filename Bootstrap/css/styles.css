@@ -1,0 +1,139 @@
+
+
+  /* Variables*/
+  :root {
+    --lav-light: #4c64ee;
+    --lav: #1943ce;
+  }
+  
+  /* Tipografía general */
+  body {
+    font-family: raleway;
+  }
+
+  .mt-6{
+      margin-top: 5rem;
+  }
+  
+  
+  /* Crear una clase nueva */
+  .btn-lav {
+    color: #fff;
+    background-color:#0b5027 ;
+    border-color: #0b5027;
+}
+
+.btn-lav:hover{
+    color: #fff;
+    background-color:#33e279 ;
+    border-color: #33e279;
+    transform: scale(0.9);
+}
+
+
+/* Pisar la clase existente */
+.btn-primary:hover{
+    color: #fff;
+    background-color:#33e279 ;
+    border-color: #33e279;
+    transform: scale(0.9);
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color:#0b5027 ;
+    border-color: #0b5027;
+}
+
+.bg-lav{
+    background-color:#8ce0a8 !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: grey;
+    background-color: #21c291;
+    box-shadow: rgba(5, 59, 46, 0.5);
+}
+
+
+
+
+.accordion-button:not(.collapsed) {
+    color: grey;
+    background-color: rgba(180, 240, 131, 0.933);
+    box-shadow: rgba(5, 88, 10, 0.5);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #23ddb5;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(16, 58, 26, 0.25);
+}
+
+  /* Footer */
+  footer {
+    width: 100%;
+    background: var(--lav);
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .anchoFooter {
+    margin-top: 30px;
+  }
+  
+  .redes {
+  
+    display: inline-block;
+  }
+  
+  .bi-facebook {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .bi-facebook:hover {
+    color: #3b5998;
+  }
+  
+  .bi-whatsapp {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .bi-whatsapp:hover {
+    color: #25D366;
+  }
+  
+  .bi-instagram {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .bi-instagram:hover {
+    color: #8a3ab9;
+  }
+  
+
+  @media (max-width: 768px) {
+    .mt-mob{
+        margin-top: 2rem;
+    }
+
+  }
+  
+  
+  
